@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 
 class BottomMenuProvider extends ChangeNotifier {
-  int indexNumber = 3;
+  int indexNumber = 0;
 
   setIndexNumber(index) {
     indexNumber = index;
